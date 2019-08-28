@@ -1,10 +1,12 @@
-""" Find the adjacent rooms for each room
+""" Find the adjacent rooms for each room. The returned adjecency graph will
+contain a list for each room containing the indices of the rooms that are
+adjacent to it.
 Input:
     rooms [brep] - Surfaces of the rooms to analyze
     distance [value] - Distance from the room to check for other rooms
     sample [value] - Distance between sample points (lower = more points)
 Returns:
-    connectivity [index] - Nested Lists of indices of adjacent rooms
+    connectivity [index] - Room connectivity in adjacency graph representation
 """
 import rhinoscriptsyntax as rs
 import ghpythonlib.components as ghc
