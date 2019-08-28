@@ -8,9 +8,19 @@ import ghpythonlib.components as ghc
 import Rhino.Geometry as rg
 import ghpythonlib.treehelpers as ght
 
-# Convert brep to polylines
-room_segments = [ghc.DeconstructBrep(room)[1] for room in rooms]
+
 room_polylines = [ghc.JoinCurves(segments, False) for segments in room_segments]
+
+a = []
+for room_brep in rooms:
+    faces = ghc.DeconstructBrep(room_brep)[0]
+    for face in faces:
+        edges = ghc.DeconstructBrep(face)[1]
+        polyline = ghc.JoinCurves(edges, False)
+        vertices = ghc.Explode(polyline)[1]
+        a.append(vertices)
+
+
 
 
 
