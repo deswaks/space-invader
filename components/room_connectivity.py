@@ -11,9 +11,7 @@ import ghpythonlib.components as ghc
 import Rhino.Geometry as rg
 import ghpythonlib.treehelpers as ght
 
-# Create output Lists
-room_polylines = []
-room_points = []
+# Create output List
 connectivity = []
 
 # Define global tool objects
