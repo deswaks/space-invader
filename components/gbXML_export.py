@@ -8,10 +8,6 @@ import ghpythonlib.components as ghc
 import Rhino.Geometry as rg
 import ghpythonlib.treehelpers as ght
 
-
-room_polylines = [ghc.JoinCurves(segments, False) for segments in room_segments]
-
-
 def brep_area(brep, plane):
     """ Computes plane area of a brep"""
     section_curve = ghc.BrepXPlane(brep,plane)[0]
