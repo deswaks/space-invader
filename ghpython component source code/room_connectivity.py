@@ -75,4 +75,4 @@ for i, room_polyline in enumerate(room_polylines):
 # Convert outputs to trees
 R = ght.list_to_tree(rooms)
 P = ght.list_to_tree(P)
-connectivity = ght.list_to_tree(connectivity)
+graph = ght.list_to_tree(connectivity)
