@@ -6,7 +6,7 @@ The tools has been created as a project at the Technical University of Denmark, 
 # Installation
 <b>NB:</b> This software requires <a href="https://www.rhino3d.com/">Rhinoceros</a> and <a href="https://www.grasshopper3d.com/">Grasshopper</a>
 1. Clone or download the repository.
-2. Copy all the files from the <a href"https://github.com/deswaks/space-invader/tree/master/components">components folder</a>.
+2. Copy all the files from the <a href="https://github.com/deswaks/space-invader/tree/master/components">components folder</a>.
 3. Paste the files into the Grasshopper User Objects Folder (optionally create a subfolder for the files).
 
 # How to use
