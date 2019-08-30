@@ -1,7 +1,9 @@
-# space-invader
+# Space Invader
+<img align="center" src="https://raw.githubusercontent.com/deswaks/space-invader/master/data/space-invader.png" width="280"/>
+
 Tools for locating and reconstructing analytical building spaces with <a href="https://www.rhino3d.com/">Rhinoceros</a> and <a href="https://www.grasshopper3d.com/">Grasshopper</a>.
 
-The tools has been created as a project at the Technical University of Denmark, August 2019.
+The tools has been created as a project at the Technical University of Denmark, August 2019. They are a work in progress and some still contain errors.
 
 # Installation
 <b>NB:</b> This software requires <a href="https://www.rhino3d.com/">Rhinoceros</a> and <a href="https://www.grasshopper3d.com/">Grasshopper</a>
