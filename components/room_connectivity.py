@@ -18,6 +18,16 @@ connectivity = []
 
 # Define global tool objects
 global_Z = rg.Vector3d(0,0,1)
+global_Z_neg = ghc.Reverse(global_Z)
+global_XY = ghc.XYPlane(ghc.ConstructPoint(0,0,0))
+
+def standardize_surfaces(srf):
+    srf = ghc.ProjectAlong(srf, global_XY, global_Z_neg)[0]
+    srf_normal = ghc.EvaluateSurface(srf, ghc.ConstructPoint(0.5,0.5,0))
+    if srf_normal[2] == -1:
+        return ghc.Flip(srf)[0]
+    else:
+        return srf
 
 def create_outside_points(segment):
     # Create a point mid-curve outside the region
@@ -31,6 +41,8 @@ def create_outside_points(segment):
             points.append(curve_point)
         return points
 
+# Standardize surfaces
+rooms = [standardize_surfaces(room) for room in rooms]
 
 # Convert brep to polylines
 room_segments = [ghc.DeconstructBrep(room)[1] for room in rooms]
