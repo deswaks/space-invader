@@ -20,10 +20,10 @@ For instructions on how to use each component, refer to the documentation suppli
 The file <i>example_distance_fields_ordered_points.gh</i> is a complete program that makes use of the majority of the functions and can locate and recreate rooms in 2D building models. For further examples on how to use all the functions, see the program files in the <i>program</i> folder in which we have made use of the rest of the tools.
 
 # Contents of folders
-<b>components:</b> Contains all the Grasshopper components readu to be used on a Grasshopper canvas.
+<b>/components/</b> Contains all the Grasshopper components readu to be used on a Grasshopper canvas.
 
-<b>data:</b> Contains a collection of test models used in the development and misc. data.
+<b>/data/</b> Contains a collection of test models used in the development and misc. data.
 
-<b>ghpython component source code:</b> Contains the source code used in all the components written in GHPython and a test file for each.
+<b>/ghpython component source code/</b> Contains the source code used in all the components written in GHPython and a test file for each.
 
-<b>programs:</b> Contains a collection of programs for locating and reconstructing building spaces. most are not finished though they still serve as examples and building blocks for further development. See the example for a finished program.
+<b>/programs/</b> Contains a collection of programs for locating and reconstructing building spaces. most are not finished though they still serve as examples and building blocks for further development. See the example for a finished program.
