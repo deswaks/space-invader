@@ -1,5 +1,5 @@
 # space-invader
-Tools for locating and reconstructing analytical building spaces with Rhino Grasshopper.
+Tools for locating and reconstructing analytical building spaces with <a href="https://www.rhino3d.com/">Rhinoceros</a> and <a href="https://www.grasshopper3d.com/">Grasshopper</a>.
 
 The tools has been created as a project at the Technical University of Denmark, August 2019.
 
