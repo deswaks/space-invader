@@ -27,3 +27,6 @@ The file <i>example.gh</i> is a complete program that makes use of the majority 
 <b>/ghpython component source code/</b> Contains the source code used in all the components written in GHPython and a test file for each.
 
 <b>/programs/</b> Contains a collection of programs for locating and reconstructing building spaces. most are not finished though they still serve as examples and building blocks for further development. See the example for a finished program.
+
+# Acknowledgements
+This project was realized by Anders Bomann Christensen, Niklas Rosenkilde and Sebastian Dahl Meier with the support of The Technical University of Denmark under supervision of Assistant Professor Kristoffer Negendal and the foundation Martha og Paul Kerrn-Jespersens Fond.
